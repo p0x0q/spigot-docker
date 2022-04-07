@@ -4,7 +4,7 @@ services:
     restart: always
     image: nimmis/spigot:latest
     ports:
-      - "25566:25565"
+      - "25565:25565"
     environment:
       SPIGOT_VER: 1.18
       EULA: 'true'
