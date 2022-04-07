@@ -1,6 +1,7 @@
 version: "3"
 services:
   server:
+    restart: always
     image: nimmis/spigot:latest
     ports:
       - "25566:25565"
@@ -9,6 +10,5 @@ services:
       EULA: 'true'
       MC_MAXMEM: 2g
       MC_MINMEM: 512m
-      SPIGOT_UID: 1132
     volumes:
       - './minecraft-data:/minecraft'
