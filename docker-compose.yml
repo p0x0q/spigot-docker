@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  server:
+    image: nimmis/spigot:latest
+    ports:
+      - "25566:25565"
+    environment:
+      SPIGOT_VER: 1.18
+      EULA: 'true'
+      MC_MAXMEM: 2g
+      MC_MINMEM: 512m
+      SPIGOT_UID: 1132
+    volumes:
+      - './minecraft-data:/minecraft'
