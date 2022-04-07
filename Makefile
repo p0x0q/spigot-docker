@@ -1,0 +1,2 @@
+init:
+	mkdir minecraft-data
