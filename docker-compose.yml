@@ -1,6 +1,7 @@
 version: "3"
 services:
   server:
+    container_name: spigot
     restart: always
     image: nimmis/spigot:latest
     ports:
