@@ -8,3 +8,5 @@ start:
 	docker exec spigot mc_start
 restart:
 	docker exec spigot mc_restart
+op:
+	docker exec spigot mc_send op p0x0q_jp
