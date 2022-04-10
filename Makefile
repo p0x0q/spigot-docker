@@ -3,7 +3,7 @@ init:
 reload:
 	git reset --hard HEAD && git pull 
 stop:
-	docker exec spigot mc_restart
+	docker exec spigot mc_stop
 start:
 	docker exec spigot mc_start
 restart:
